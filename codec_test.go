@@ -2,11 +2,12 @@ package codec
 
 import (
 	"bytes"
-	"net/rpc"
 	"reflect"
 	"testing"
 
-	"github.com/mars9/codec/internal"
+	"github.com/puper/rpc"
+
+	"github.com/puper/codec/internal"
 )
 
 type buffer struct {

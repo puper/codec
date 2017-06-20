@@ -4,11 +4,12 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"net/rpc"
 	"sync"
 
+	"github.com/puper/rpc"
+
 	"github.com/golang/protobuf/proto"
-	"github.com/mars9/codec/wirepb"
+	"github.com/puper/codec/wirepb"
 )
 
 const defaultBufferSize = 4 * 1024
